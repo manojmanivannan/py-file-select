@@ -22,9 +22,9 @@ def run_find(regex, location, respect_gitignore=True):
     
     # Find command
     if respect_gitignore:
-        cmd = ['fdfind', regex, location]
+        cmd = ['fdfind', '--type','f', regex, location]
     else:
-        cmd = ['fdfind', '-I', regex, location]
+        cmd = ['fdfind', '-I','--type','f', regex, location]
 
     # Run find command
     try:
