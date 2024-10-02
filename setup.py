@@ -7,7 +7,7 @@ setup(
     install_requires=['inquirer==3.4.0','click==8.1.7'],
     entry_points={
         'console_scripts': [
-            'py_file_select=source.command_line:main',
+            'py_file_select=source.py_file_select:main',
         ],
     },
     setup_requires=['wheel','setuptools']

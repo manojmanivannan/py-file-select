@@ -7,4 +7,4 @@ This is a tool that allows you to open files in a directory using an interactive
 Install via `pipx`:
 
 ```bash
-pipx install your-package-name
+pipx install git+https://github.com/manojmanivannan/py-file-select.git
